@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:e2e": "npx playwright test tests/"  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.44.0",
     "@types/node": "^20.12.12"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
